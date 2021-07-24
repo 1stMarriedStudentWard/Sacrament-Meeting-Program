@@ -13,7 +13,7 @@ img {
 	margin-right: auto;
 	display: block;
 }
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
 	img {
 		width: 100vw;
 		height: 160vw;
