@@ -6,3 +6,17 @@ iframe {
 	width: calc(100% - 5px);
 	height: calc(100% - 5px);
 }
+img {
+	width: 481px;
+	height: 768px;
+	margin-left: auto;
+	margin-right: auto:
+	display: block;
+}
+@media (max-width: 500px) {
+	img {
+		width: 100vw;
+		height: 160vw;
+		margin: 0;
+	}
+}
